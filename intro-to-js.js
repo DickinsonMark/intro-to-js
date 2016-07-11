@@ -61,3 +61,23 @@ for (g = 1; g <= 50; g++) {
     console.log(g);
   };
 };
+
+// 3
+var sum = 0;
+for (h = 1; h < 1000; h++) {
+  if (h % 3 === 0) {
+    sum += h;
+  } else if (h % 5 === 0) {
+    sum += h;
+  };
+};
+console.log(sum);
+
+// 4
+for (i = 0; i <= 7; i++) {
+  var pyramid = [];
+  for (j = 0; j < i; j++){
+    pyramid[j] = "#";
+  };
+  console.log(pyramid.join().split(",").join(""))
+};
